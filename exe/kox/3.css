@@ -1,0 +1,48 @@
+body{
+    background: rgb(238, 251, 212);
+}
+canvas {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#playbutton {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.powrot{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: greenyellow;
+    text-shadow: 2px 2px 0px rgb(116, 173, 31)
+}
+
+.nastepny{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: greenyellow;
+    text-shadow: 2px 2px 0px rgb(116, 173, 31)
+}
